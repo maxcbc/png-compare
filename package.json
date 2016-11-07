@@ -1,0 +1,37 @@
+{
+  "name": "png-compare",
+  "version": "0.0.1",
+  "description": "Compare png files natively using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && nyc mocha --recursive"
+  },
+  "keywords": [
+    "png",
+    "compare",
+    "node"
+  ],
+  "author": "Max Bladen-Clark",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "xo": "^0.17.0"
+  },
+  "nyc": {
+    "exclude": [
+      "**/*.spec.js",
+      "node_modules"
+    ]
+  },
+  "xo": {
+    "esnext": true,
+    "ignores": [
+      "**/*.spec.js",
+      "**/*.test.js"
+    ]
+  },
+  "dependencies": {
+    "pngjs": "^3.0.0"
+  }
+}
