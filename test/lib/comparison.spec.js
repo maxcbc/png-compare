@@ -22,16 +22,20 @@ describe('comparison', () => {
 
 			it(`should return a difference greater than '0' and lower or equal to '100' if asked to compare two different images`, () => {
 				let err;
-				let result;
+				const result = {};
 				try {
-					result = compare('test/data/a.png', 'test/data/d.png');
+					result.a = compare('test/data/a.png', 'test/data/d.png');
+					result.b = compare('test/data/f.png', 'test/data/g.png');
 				} catch (e) {
 					err = e;
 				}
 				expect(err).to.not.exist;
-				expect(result > 0).to.equal(true);
-				expect(result <= 100).to.equal(true);
-				expect(result).to.equal(0.48160000000000003);
+				expect(result.a > 0).to.equal(true);
+				expect(result.a <= 100).to.equal(true);
+				expect(result.a).to.equal(0.48160000000000003);
+				expect(result.b > 0).to.equal(true);
+				expect(result.b <= 100).to.equal(true);
+				expect(result.b).to.equal(1.1953359609609608);
 			});
 
 		});

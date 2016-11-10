@@ -1,4 +1,5 @@
 node_modules
 .idea
 **/diff.*
+**/**.diff.*
 .nyc_output
