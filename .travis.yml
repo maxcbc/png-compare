@@ -6,3 +6,4 @@ node_js:
   - "node"
 before_script:
   - sudo apt-get install imagemagick
+  - npm install -g nyc mocha
