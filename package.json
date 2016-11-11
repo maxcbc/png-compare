@@ -1,8 +1,8 @@
 {
   "name": "png-compare",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Compare png files natively using node.js",
-  "main": "compare.js",
+  "main": "lib/compare.js",
   "homepage": "https://github.com/maxcbc/png-compare#readme",
   "scripts": {
     "test": "xo && nyc mocha --recursive"
