@@ -27,7 +27,7 @@ This module uses imagemagick's compare command to compare two identically sized 
 
 ## Installation
 
-*TBA*
+`npm install png-compare`
 
 <!--To add this to your module run:-->
 <!--`npm i png-compare`-->
