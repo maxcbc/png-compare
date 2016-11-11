@@ -6,6 +6,10 @@
   "scripts": {
     "test": "xo && nyc mocha --recursive"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/maxcbc/png-compare.git"
+  },
   "keywords": [
     "png",
     "compare",
