@@ -16,7 +16,7 @@
 ### Pre-requisites
 
 #### Node
-This project is tested on Node versions 4.x, 5.x and 6.x via Travis-CI. The status of these tests can be seen on the project's [travis page](https://travis-ci.org/maxcbc/png-compare).
+This project is tested on Node versions 4.x, 5.x, 6.x and 7.x via Travis-CI. The status of these tests can be seen on the project's [travis page](https://travis-ci.org/maxcbc/png-compare).
 
 
 #### Imagemagick
