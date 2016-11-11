@@ -1,6 +1,6 @@
 'use strict';
 const expect = require('chai').expect;
-const compare = require('../../lib/comparison.js');
+const compare = require('../../lib/compare.js');
 
 describe('comparison', () => {
 
