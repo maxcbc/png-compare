@@ -30,6 +30,7 @@ describe('comparison', () => {
 					err = e;
 				}
 				expect(err).to.not.exist;
+				console.log(result);
 				expect(result.a > 0).to.equal(true);
 				expect(result.a <= 100).to.equal(true);
 				expect(result.a).to.equal(0.48160000000000003);
